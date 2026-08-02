@@ -241,6 +241,9 @@ async function recordPublishFailure(step, error) {
 // 把发布失败的原始英文输出翻译成用户能照做的中文解决办法。
 function explainPublishError(output, step) {
   const text = String(output || '').toLowerCase()
+  if (text.includes('git conflict') || text.includes('conflict')) {
+    return '本地修改与 GitHub 远程修改发生冲突，已保留本地内容且没有强制覆盖远程。请先处理冲突后再发布。'
+  }
   if (text.includes('could not resolve host') || text.includes('failed to connect') || text.includes('timed out') || text.includes('connection was reset') || text.includes('recv failure')) {
     return '看起来是网络连不上 GitHub。解决办法：1）检查电脑能否正常上网；2）如果用了加速器/VPN，尝试开启或关闭后重试；3）稍等一两分钟再点一次"发布上线"。你的修改已经保存在本地，不会丢失。'
   }
@@ -313,18 +316,36 @@ async function runGitNetwork(args, operation) {
   })
 }
 
+async function syncWithRemoteBranch(branch) {
+  const remote = await runGitNetwork(['ls-remote', '--heads', 'origin', `refs/heads/${branch}`], 'GitHub remote branch check')
+  if (!remote.stdout.trim()) return
+  await runGitNetwork(['fetch', 'origin', branch], 'GitHub remote sync')
+  try {
+    await run('git', ['rebase', `origin/${branch}`])
+  } catch (error) {
+    await run('git', ['rebase', '--abort']).catch(() => {})
+    throw Object.assign(new Error('本地修改与 GitHub 远程修改存在冲突，已取消本次同步。请先处理冲突后再发布。'), {
+      stdout: error.stdout || '',
+      stderr: error.stderr || '',
+      cause: error,
+    })
+  }
+}
+
 async function pushAndVerify(branch, expectedCommit, beforeVerification) {
+  await syncWithRemoteBranch(branch)
+  const syncedCommit = (await run('git', ['rev-parse', 'HEAD'])).stdout.trim()
   const push = await runGitNetwork(['push', '-u', 'origin', branch], 'GitHub upload')
   beforeVerification?.()
   const remote = await runGitNetwork(['ls-remote', 'origin', `refs/heads/${branch}`], 'GitHub upload verification')
   const remoteCommit = remote.stdout.trim().split(/\s+/)[0] || ''
-  if (remoteCommit.toLowerCase() !== expectedCommit.toLowerCase()) {
-    throw Object.assign(new Error(`GitHub upload could not be verified. Local commit ${expectedCommit}, remote commit ${remoteCommit || 'missing'}.`), {
+  if (remoteCommit.toLowerCase() !== syncedCommit.toLowerCase()) {
+    throw Object.assign(new Error(`GitHub upload could not be verified. Local commit ${syncedCommit}, remote commit ${remoteCommit || 'missing'}.`), {
       stdout: `${push.stdout || ''}\n${remote.stdout || ''}`,
       stderr: remote.stderr || '',
     })
   }
-  return { push, remoteCommit }
+  return { push, remoteCommit, commit: syncedCommit }
 }
 
 function openExternal(url) {
