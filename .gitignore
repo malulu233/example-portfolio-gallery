@@ -7,5 +7,3 @@ public/deployment-info.json
 .vercel/
 .editor-settings.json
 deployment-failures.log
-
-.vercel

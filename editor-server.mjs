@@ -828,15 +828,14 @@ async function handleApi(request, response, url) {
       const commitSha = (await run('git', ['rev-parse', 'HEAD'])).stdout.trim()
       updatePublishProgress({ stage: 'github-upload', currentStep: 3, message: '正在上传到 GitHub', detail: '正在使用兼容网络连接上传代码。' })
       const pushed = await pushAndVerify(settings.branch, commitSha, () => updatePublishProgress({ stage: 'github-verify', currentStep: 4, message: 'GitHub 上传完成，正在核对远程版本', detail: '正在确认远程分支已经指向本次提交。' }))
-       const deployedCommit = pushed.commit
-       const startedAt = Date.now()
+      const startedAt = Date.now()
       updatePublishProgress({
         running: true,
         stage: 'vercel-verify',
         currentStep: 5,
         message: 'GitHub 已确认，正在等待 Vercel 部署',
         detail: 'Vercel 会根据 GitHub 更新自动开始部署，系统会持续检查线上版本。',
-         commit: deployedCommit,
+        commit: commitSha,
         url: settings.vercelSiteUrl,
         startedAt,
         lastCheckedAt: 0,
@@ -857,11 +856,11 @@ async function handleApi(request, response, url) {
         checkCount: 0,
         elapsedSeconds: deploymentElapsedSeconds(startedAt),
       })
-       startDeploymentMonitor(settings.vercelSiteUrl, deployedCommit)
+      startDeploymentMonitor(settings.vercelSiteUrl, commitSha)
       const vercel = {
         status: settings.vercelSiteUrl ? 'deploying' : 'queued',
         message: settings.vercelSiteUrl ? 'GitHub 上传成功，Vercel 正在部署，后台会持续检查。' : 'GitHub 上传成功，但尚未填写 Vercel 网站地址。',
-         commit: deployedCommit,
+        commit: commitSha,
         url: settings.vercelSiteUrl,
       }
       sendJson(response, 200, {
@@ -873,7 +872,7 @@ async function handleApi(request, response, url) {
           `GitHub upload verified at ${pushed.remoteCommit}.`,
           vercel.message,
         ].filter(Boolean).join('\n'),
-         github: { status: 'success', message: 'GitHub upload verified', commit: deployedCommit, remoteCommit: pushed.remoteCommit },
+        github: { status: 'success', message: 'GitHub upload verified', commit: commitSha, remoteCommit: pushed.remoteCommit },
         vercel,
         progress: { ...publishProgress },
       })
