@@ -642,6 +642,17 @@
       "hidden": false,
       "styles": {},
       "parentStyles": {}
+    },
+    "/#pricing::[data-editor-text-key=\"pricing-offer-1785632461484-label\"]": {
+      "selector": "[data-editor-text-key=\"pricing-offer-1785632461484-label\"]",
+      "page": "/#pricing",
+      "kind": "text",
+      "value": "四、注意事项",
+      "src": "",
+      "alt": "",
+      "hidden": false,
+      "styles": {},
+      "parentStyles": {}
     }
   },
   "insertions": [
