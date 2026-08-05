@@ -653,6 +653,17 @@
       "hidden": false,
       "styles": {},
       "parentStyles": {}
+    },
+    "/works::[data-editor-gallery-id=\"gallery-1785636021572\"]": {
+      "selector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "page": "/works",
+      "kind": "element",
+      "value": "××××××××××",
+      "src": "",
+      "alt": "",
+      "hidden": false,
+      "styles": {},
+      "parentStyles": {}
     }
   },
   "insertions": [
@@ -1362,6 +1373,57 @@
       "src": "/images/editor/batch-1785636145426-7-ps3---.webp",
       "srcMobile": "/images/editor/batch-1785636145426-7-ps3----mobile.webp",
       "alt": "ps3结城理",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2 / 3",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1785939113960-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1785939113960-1-111.webp",
+      "srcMobile": "/images/editor/batch-1785939113960-1-111-mobile.webp",
+      "alt": "111",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "3840 / 2560",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1785939113960-2",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1785939113960-2----.webp",
+      "srcMobile": "/images/editor/batch-1785939113960-2-----mobile.webp",
+      "alt": "南宫羽",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "3840 / 2560",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1785939113960-3",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1785939113960-3-IMG_20260803_113010.webp",
+      "srcMobile": "/images/editor/batch-1785939113960-3-IMG_20260803_113010-mobile.webp",
+      "alt": "IMG_20260803_113010",
       "styles": {
         "width": "100%",
         "aspect-ratio": "2 / 3",
