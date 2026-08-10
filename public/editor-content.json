@@ -664,6 +664,17 @@
       "hidden": false,
       "styles": {},
       "parentStyles": {}
+    },
+    "/works::[data-editor-gallery-id=\"gallery-1785221332570\"]": {
+      "selector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "page": "/works",
+      "kind": "element",
+      "value": "×××××××××××××××××××××××××",
+      "src": "",
+      "alt": "",
+      "hidden": false,
+      "styles": {},
+      "parentStyles": {}
     }
   },
   "insertions": [
@@ -1427,6 +1438,23 @@
       "styles": {
         "width": "100%",
         "aspect-ratio": "2 / 3",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1786374510950-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1786374510950-1------.webp",
+      "srcMobile": "/images/editor/batch-1786374510950-1-------mobile.webp",
+      "alt": "新约能天使",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
         "object-fit": "cover",
         "display": "block",
         "border-radius": "12px"
