@@ -365,7 +365,7 @@
       "selector": "[data-editor-text-key=\"pricing-offer-1785388634215-copy\"]",
       "page": "/#pricing",
       "kind": "text",
-      "value": "150R起（视图片质量以及难度定价）",
+      "value": "200R起（视图片质量以及难度定价）",
       "src": "",
       "alt": "",
       "hidden": false,
@@ -400,7 +400,7 @@
       "selector": "[data-editor-text-key=\"pricing-offer-1785388220821-copy\"]",
       "page": "/#pricing",
       "kind": "text",
-      "value": "10-30R（视优化项目收费）",
+      "value": "10-100R（视优化项目收费）",
       "src": "",
       "alt": "",
       "hidden": false,
@@ -422,7 +422,7 @@
       "selector": "[data-editor-text-key=\"pricing-offer-1785388225736-copy\"]",
       "page": "/#pricing",
       "kind": "text",
-      "value": "30-120R（视优化项目收费）",
+      "value": "50-150R（视优化项目收费）",
       "src": "",
       "alt": "",
       "hidden": false,
@@ -1659,6 +1659,125 @@
       "styles": {
         "width": "100%",
         "aspect-ratio": "3840 / 2560",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1789618536204-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1789618536204-1------.webp",
+      "srcMobile": "/images/editor/batch-1789618536204-1-------mobile.webp",
+      "alt": "结城理最终",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2.35 / 1",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1789618536204-2",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1789618536204-2-------.webp",
+      "srcMobile": "/images/editor/batch-1789618536204-2--------mobile.webp",
+      "alt": "玖的究极杀招",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1789618536204-3",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1789618536204-3-----.webp",
+      "srcMobile": "/images/editor/batch-1789618536204-3------mobile.webp",
+      "alt": "开枪成图",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "9 / 16",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1789618536204-4",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1789618536204-4----.webp",
+      "srcMobile": "/images/editor/batch-1789618536204-4-----mobile.webp",
+      "alt": "洛丽塔",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2 / 3",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1789618536204-5",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1789618536204-5---.webp",
+      "srcMobile": "/images/editor/batch-1789618536204-5----mobile.webp",
+      "alt": "双人",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "21 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1789618536204-6",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1789618536204-6---panty.webp",
+      "srcMobile": "/images/editor/batch-1789618536204-6---panty-mobile.webp",
+      "alt": "修女panty",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "9 / 16",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1789618536204-7",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1789618536204-7------.webp",
+      "srcMobile": "/images/editor/batch-1789618536204-7-------mobile.webp",
+      "alt": "燕云十六声",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "21 / 9",
         "object-fit": "cover",
         "display": "block",
         "border-radius": "12px"
