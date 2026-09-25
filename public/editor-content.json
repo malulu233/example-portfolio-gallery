@@ -16,8 +16,8 @@
       "selector": "__page_background_image__",
       "page": "/works",
       "kind": "image",
-      "src": "/images/editor/IMG_5333.webp",
-      "srcMobile": "/images/editor/IMG_5333-mobile.webp",
+      "src": "/images/editor/-----.webp",
+      "srcMobile": "/images/editor/------mobile.webp",
       "hidden": false,
       "styles": {}
     },
@@ -613,8 +613,8 @@
       "selector": "__page_background_image__",
       "page": "/#works",
       "kind": "image",
-      "src": "/images/editor/IMG_3319.webp",
-      "srcMobile": "/images/editor/IMG_3319-mobile.webp",
+      "src": "/images/editor/---2.webp",
+      "srcMobile": "/images/editor/---2-mobile.webp",
       "hidden": false,
       "styles": {}
     },
@@ -675,6 +675,30 @@
       "hidden": false,
       "styles": {},
       "parentStyles": {}
+    },
+    "/#works::#root > div.route-transition > div.clean-scene-home.gallery-site > section.clean-gallery-scene": {
+      "selector": "#root > div.route-transition > div.clean-scene-home.gallery-site > section.clean-gallery-scene",
+      "page": "/#works",
+      "kind": "element",
+      "value": "例图画廊展开完整例图例图画廊展示，可单独点开预览大图。大合成×××××××××××××××××××××××××××××××××××××××××××××半合成×××××××××××××场照优化×××××××",
+      "src": "",
+      "alt": "",
+      "hidden": false,
+      "styles": {},
+      "parentStyles": {}
+    },
+    "/works::[data-editor-insert-id=\"gallery-batch-1786547965034-7\"][data-editor-insert-image=\"true\"]": {
+      "selector": "[data-editor-insert-id=\"gallery-batch-1786547965034-7\"][data-editor-insert-image=\"true\"]",
+      "page": "/works",
+      "kind": "image",
+      "value": "",
+      "src": "/images/editor/batch-1786547965034-7---.webp",
+      "alt": "卧姿",
+      "hidden": false,
+      "styles": {},
+      "parentStyles": {
+        "aspect-ratio": "16 / 9"
+      }
     }
   },
   "insertions": [
@@ -696,40 +720,6 @@
       }
     },
     {
-      "id": "gallery-batch-1785635796347-2",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1785635796347-2-83dd8d552190cfc68df26d0192d5aa1e.webp",
-      "srcMobile": "/images/editor/batch-1785635796347-2-83dd8d552190cfc68df26d0192d5aa1e-mobile.webp",
-      "alt": "83dd8d552190cfc68df26d0192d5aa1e",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "3840 / 2560",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-batch-1785635796347-3",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1785635796347-3---.webp",
-      "srcMobile": "/images/editor/batch-1785635796347-3----mobile.webp",
-      "alt": "碧蓝",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
       "id": "gallery-batch-1785635796347-4",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
@@ -738,40 +728,6 @@
       "src": "/images/editor/batch-1785635796347-4---.webp",
       "srcMobile": "/images/editor/batch-1785635796347-4----mobile.webp",
       "alt": "喰种",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-batch-1785635796347-5",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1785635796347-5---.webp",
-      "srcMobile": "/images/editor/batch-1785635796347-5----mobile.webp",
-      "alt": "嫦娥",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-batch-1785635796347-6",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1785635796347-6---.webp",
-      "srcMobile": "/images/editor/batch-1785635796347-6----mobile.webp",
-      "alt": "初音",
       "styles": {
         "width": "100%",
         "aspect-ratio": "16 / 9",
@@ -866,23 +822,6 @@
       }
     },
     {
-      "id": "gallery-batch-1785635796347-12",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1785635796347-12-----.webp",
-      "srcMobile": "/images/editor/batch-1785635796347-12------mobile.webp",
-      "alt": "明日方舟",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
       "id": "gallery-batch-1785635796347-13",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
@@ -908,23 +847,6 @@
       "src": "/images/editor/batch-1785635796347-14---1.webp",
       "srcMobile": "/images/editor/batch-1785635796347-14---1-mobile.webp",
       "alt": "三人1",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-batch-1785635796347-15",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1785635796347-15------.webp",
-      "srcMobile": "/images/editor/batch-1785635796347-15-------mobile.webp",
-      "alt": "万圣节蕾姆",
       "styles": {
         "width": "100%",
         "aspect-ratio": "16 / 9",
@@ -1495,57 +1417,6 @@
       }
     },
     {
-      "id": "gallery-batch-1786547965034-3",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1786547965034-3---1.webp",
-      "srcMobile": "/images/editor/batch-1786547965034-3---1-mobile.webp",
-      "alt": "封面1",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "2 / 3",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-batch-1786547965034-4",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1786547965034-4---2.webp",
-      "srcMobile": "/images/editor/batch-1786547965034-4---2-mobile.webp",
-      "alt": "封面2",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "2 / 3",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-batch-1786547965034-5",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1786547965034-5---3.webp",
-      "srcMobile": "/images/editor/batch-1786547965034-5---3-mobile.webp",
-      "alt": "封面3",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "2 / 3",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
       "id": "gallery-batch-1786547965034-6",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
@@ -1569,11 +1440,10 @@
       "insertPosition": "end",
       "kind": "image",
       "src": "/images/editor/batch-1786547965034-7---.webp",
-      "srcMobile": "/images/editor/batch-1786547965034-7----mobile.webp",
       "alt": "卧姿",
       "styles": {
         "width": "100%",
-        "aspect-ratio": "21 / 9",
+        "aspect-ratio": "16 / 9",
         "object-fit": "cover",
         "display": "block",
         "border-radius": "12px"
@@ -1608,23 +1478,6 @@
       "styles": {
         "width": "100%",
         "aspect-ratio": "21 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-batch-1787323735549-2",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1787323735549-2-----.webp",
-      "srcMobile": "/images/editor/batch-1787323735549-2------mobile.webp",
-      "alt": "丹恒腾荒",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
         "object-fit": "cover",
         "display": "block",
         "border-radius": "12px"
@@ -1782,6 +1635,23 @@
         "display": "block",
         "border-radius": "12px"
       }
+    },
+    {
+      "id": "gallery-batch-1790341496965-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1790341496965-1-----.webp",
+      "srcMobile": "/images/editor/batch-1790341496965-1------mobile.webp",
+      "alt": "三人背景",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "9 / 16",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   ],
   "pages": [],
@@ -1799,7 +1669,7 @@
     {
       "id": "gallery-1785221332570",
       "label": "大合成",
-      "aspectRatio": "16 / 9",
+      "aspectRatio": "21 / 9",
       "portrait": false,
       "columnWidth": 2,
       "columns": 3
@@ -1807,7 +1677,7 @@
     {
       "id": "gallery-1785636021572",
       "label": "半合成",
-      "aspectRatio": "16 / 9",
+      "aspectRatio": "21 / 9",
       "columns": 3,
       "portrait": false
     },
@@ -1821,44 +1691,42 @@
   ],
   "galleryImageOrder": {
     "gallery-1785221332570": [
-      "gallery-batch-1787323735549-1",
       "gallery-batch-1787323735549-3",
       "gallery-batch-1786374510950-1",
-      "gallery-batch-1785635796347-4",
+      "gallery-batch-1789618536204-6",
       "gallery-batch-1785635796347-1",
-      "gallery-batch-1785635796347-9",
-      "gallery-batch-1787323735549-2",
-      "gallery-batch-1785635796347-8",
-      "gallery-batch-1787323735549-4",
       "gallery-batch-1785635796347-11",
-      "gallery-batch-1785635796347-2",
-      "gallery-batch-1785635796347-3",
-      "gallery-batch-1785635796347-6",
-      "gallery-batch-1785635796347-10",
-      "gallery-batch-1785635796347-5",
-      "gallery-batch-1785635796347-12",
+      "gallery-batch-1785635796347-4",
+      "gallery-batch-1785635796347-9",
+      "gallery-batch-1789618536204-4",
+      "gallery-batch-1787323735549-1",
+      "gallery-batch-1785635796347-8",
       "gallery-batch-1785635796347-16",
-      "gallery-batch-1785635796347-14",
-      "gallery-batch-1785635796347-19",
-      "gallery-batch-1785635796347-7",
-      "gallery-batch-1785635796347-15",
-      "gallery-batch-1785635796347-13",
-      "gallery-batch-1785635796347-17",
+      "gallery-batch-1787323735549-4",
+      "gallery-batch-1785635796347-10",
       "gallery-batch-1785635796347-18",
+      "gallery-batch-1785635796347-19",
+      "gallery-batch-1785635796347-14",
+      "gallery-batch-1785635796347-7",
+      "gallery-batch-1785635796347-13",
       "gallery-batch-1785635796347-20",
+      "gallery-batch-1785635796347-17",
       "gallery-batch-1785635796347-21",
       "gallery-batch-1785635796347-22",
       "gallery-batch-1785635796347-23",
       "gallery-batch-1785635796347-24",
       "gallery-batch-1785635796347-25",
       "gallery-batch-1786547965034-1",
-      "gallery-batch-1786547965034-3",
-      "gallery-batch-1786547965034-4",
-      "gallery-batch-1786547965034-5",
       "gallery-batch-1786547965034-2",
       "gallery-batch-1786547965034-6",
       "gallery-batch-1786547965034-7",
-      "gallery-batch-1786547965034-8"
+      "gallery-batch-1786547965034-8",
+      "gallery-batch-1789618536204-2",
+      "gallery-batch-1789618536204-1",
+      "gallery-batch-1789618536204-3",
+      "gallery-batch-1789618536204-5",
+      "gallery-batch-1789618536204-7",
+      "gallery-batch-1790341496965-1"
     ]
   },
   "galleryHiddenImageIds": [],
