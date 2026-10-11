@@ -1652,6 +1652,108 @@
         "display": "block",
         "border-radius": "12px"
       }
+    },
+    {
+      "id": "gallery-batch-1791727632387-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1791727632387-1-------.webp",
+      "srcMobile": "/images/editor/batch-1791727632387-1--------mobile.webp",
+      "alt": "宝石之国背景",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2.35 / 1",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1791727632387-2",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1791727632387-2------2.webp",
+      "srcMobile": "/images/editor/batch-1791727632387-2------2-mobile.webp",
+      "alt": "蝴蝶忍双生2",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "3840 / 1536",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1791727662090-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1791727662090-1----_----.webp",
+      "srcMobile": "/images/editor/batch-1791727662090-1----_-----mobile.webp",
+      "alt": "明日香_日文排版",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "9 / 16",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1791727784695-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1791727784695-1----.webp",
+      "srcMobile": "/images/editor/batch-1791727784695-1-----mobile.webp",
+      "alt": "蝴蝶忍",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2 / 3",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1791727784695-2",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1791727784695-2------.webp",
+      "srcMobile": "/images/editor/batch-1791727784695-2-------mobile.webp",
+      "alt": "孙尚香原皮",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2 / 3",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1791727784695-3",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1791727784695-3-navia_poster.webp",
+      "srcMobile": "/images/editor/batch-1791727784695-3-navia_poster-mobile.webp",
+      "alt": "navia_poster",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2 / 3",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   ],
   "pages": [],
@@ -1691,10 +1793,13 @@
   ],
   "galleryImageOrder": {
     "gallery-1785221332570": [
+      "gallery-batch-1791727662090-1",
       "gallery-batch-1787323735549-3",
       "gallery-batch-1786374510950-1",
       "gallery-batch-1789618536204-6",
+      "gallery-batch-1791727632387-2",
       "gallery-batch-1785635796347-1",
+      "gallery-batch-1791727632387-1",
       "gallery-batch-1785635796347-11",
       "gallery-batch-1785635796347-4",
       "gallery-batch-1785635796347-9",
