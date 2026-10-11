@@ -1722,23 +1722,6 @@
       }
     },
     {
-      "id": "gallery-batch-1791727784695-2",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1791727784695-2------.webp",
-      "srcMobile": "/images/editor/batch-1791727784695-2-------mobile.webp",
-      "alt": "孙尚香原皮",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "2 / 3",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
       "id": "gallery-batch-1791727784695-3",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
