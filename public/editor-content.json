@@ -1737,6 +1737,23 @@
         "display": "block",
         "border-radius": "12px"
       }
+    },
+    {
+      "id": "gallery-batch-1791807373985-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1791807373985-1------.webp",
+      "srcMobile": "/images/editor/batch-1791807373985-1-------mobile.webp",
+      "alt": "中国人能飞",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   ],
   "pages": [],
