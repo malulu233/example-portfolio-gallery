@@ -252,7 +252,7 @@
       "selector": "[data-editor-text-key=\"pricing-content\"]",
       "page": "/#pricing",
       "kind": "text",
-      "value": "例图均为本人制作，若在非本人账号发现接单例图，均为盗图                                   价格均不包含修脸，如需请单独联系收费                                           双人价格翻倍以上，不接团片，不接纯立绘还原",
+      "value": "所有项目均不包含修脸  普修20-30R 厚涂30-120R                                       提供角色名称，可提供参考图，仅供参考  （全款留CN开始排单 ）              加急钞能力双倍（2-3天出图）                                                     TIP：合成ai辅助，建议勿扰",
       "src": "",
       "alt": "",
       "hidden": false,
@@ -686,19 +686,6 @@
       "hidden": false,
       "styles": {},
       "parentStyles": {}
-    },
-    "/works::[data-editor-insert-id=\"gallery-batch-1786547965034-7\"][data-editor-insert-image=\"true\"]": {
-      "selector": "[data-editor-insert-id=\"gallery-batch-1786547965034-7\"][data-editor-insert-image=\"true\"]",
-      "page": "/works",
-      "kind": "image",
-      "value": "",
-      "src": "/images/editor/batch-1786547965034-7---.webp",
-      "alt": "卧姿",
-      "hidden": false,
-      "styles": {},
-      "parentStyles": {
-        "aspect-ratio": "16 / 9"
-      }
     }
   },
   "insertions": [
@@ -1162,23 +1149,6 @@
       }
     },
     {
-      "id": "gallery-batch-1785636048390-9",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1785636048390-9-----.webp",
-      "srcMobile": "/images/editor/batch-1785636048390-9------mobile.webp",
-      "alt": "坐姿小樱",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "2 / 3",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
       "id": "gallery-batch-1785636048390-10",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
@@ -1434,22 +1404,6 @@
       }
     },
     {
-      "id": "gallery-batch-1786547965034-7",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1786547965034-7---.webp",
-      "alt": "卧姿",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
       "id": "gallery-batch-1786547965034-8",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
@@ -1620,23 +1574,6 @@
       }
     },
     {
-      "id": "gallery-batch-1789618536204-7",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1789618536204-7------.webp",
-      "srcMobile": "/images/editor/batch-1789618536204-7-------mobile.webp",
-      "alt": "燕云十六声",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "21 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
       "id": "gallery-batch-1790341496965-1",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
@@ -1754,6 +1691,40 @@
         "display": "block",
         "border-radius": "12px"
       }
+    },
+    {
+      "id": "gallery-batch-1792232342679-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1792232342679-1------3.webp",
+      "srcMobile": "/images/editor/batch-1792232342679-1------3-mobile.webp",
+      "alt": "孙尚香原皮3",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2 / 3",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1792232342679-2",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1792232342679-2----.webp",
+      "srcMobile": "/images/editor/batch-1792232342679-2-----mobile.webp",
+      "alt": "真希波",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   ],
   "pages": [],
@@ -1824,14 +1795,31 @@
       "gallery-batch-1786547965034-1",
       "gallery-batch-1786547965034-2",
       "gallery-batch-1786547965034-6",
-      "gallery-batch-1786547965034-7",
       "gallery-batch-1786547965034-8",
       "gallery-batch-1789618536204-2",
       "gallery-batch-1789618536204-1",
       "gallery-batch-1789618536204-3",
       "gallery-batch-1789618536204-5",
-      "gallery-batch-1789618536204-7",
       "gallery-batch-1790341496965-1"
+    ],
+    "gallery-1785636021572": [
+      "gallery-batch-1791727784695-1",
+      "gallery-batch-1792232342679-1",
+      "gallery-batch-1791727784695-3",
+      "gallery-batch-1791807373985-1",
+      "gallery-batch-1792232342679-2",
+      "gallery-batch-1785636048390-1",
+      "gallery-batch-1785636048390-2",
+      "gallery-batch-1785636048390-3",
+      "gallery-batch-1785636048390-4",
+      "gallery-batch-1785636048390-5",
+      "gallery-batch-1785636048390-6",
+      "gallery-batch-1785636048390-7",
+      "gallery-batch-1785636048390-8",
+      "gallery-batch-1785636048390-10",
+      "gallery-batch-1785939113960-1",
+      "gallery-batch-1785939113960-2",
+      "gallery-batch-1785939113960-3"
     ]
   },
   "galleryHiddenImageIds": [],
