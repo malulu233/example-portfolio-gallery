@@ -1370,40 +1370,6 @@
       }
     },
     {
-      "id": "gallery-batch-1786547965034-2",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1786547965034-2---.webp",
-      "srcMobile": "/images/editor/batch-1786547965034-2----mobile.webp",
-      "alt": "白纱",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "9 / 16",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-batch-1786547965034-6",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1786547965034-6---_.webp",
-      "srcMobile": "/images/editor/batch-1786547965034-6---_-mobile.webp",
-      "alt": "跪姿_",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "9 / 16",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
       "id": "gallery-batch-1786547965034-8",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
@@ -1727,23 +1693,6 @@
       }
     },
     {
-      "id": "gallery-batch-1792761002873-1",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1792761002873-1------.webp",
-      "srcMobile": "/images/editor/batch-1792761002873-1-------mobile.webp",
-      "alt": "黑色五叶草",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
       "id": "gallery-batch-1792761057958-1",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
@@ -1772,6 +1721,23 @@
       "styles": {
         "width": "100%",
         "aspect-ratio": "2.35 / 1",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1792761507826-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1792761507826-1------.webp",
+      "srcMobile": "/images/editor/batch-1792761507826-1-------mobile.webp",
+      "alt": "黑色五叶草",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
         "object-fit": "cover",
         "display": "block",
         "border-radius": "12px"
@@ -1845,15 +1811,12 @@
       "gallery-batch-1785635796347-24",
       "gallery-batch-1785635796347-25",
       "gallery-batch-1786547965034-1",
-      "gallery-batch-1786547965034-2",
-      "gallery-batch-1786547965034-6",
       "gallery-batch-1786547965034-8",
       "gallery-batch-1789618536204-2",
       "gallery-batch-1789618536204-1",
       "gallery-batch-1789618536204-3",
       "gallery-batch-1789618536204-5",
-      "gallery-batch-1790341496965-1",
-      "gallery-batch-1792761002873-1"
+      "gallery-batch-1790341496965-1"
     ],
     "gallery-1785636021572": [
       "gallery-batch-1791727784695-1",
