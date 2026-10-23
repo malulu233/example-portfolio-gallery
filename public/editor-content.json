@@ -1725,6 +1725,57 @@
         "display": "block",
         "border-radius": "12px"
       }
+    },
+    {
+      "id": "gallery-batch-1792761002873-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1792761002873-1------.webp",
+      "srcMobile": "/images/editor/batch-1792761002873-1-------mobile.webp",
+      "alt": "黑色五叶草",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1792761057958-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1792761057958-1------.webp",
+      "srcMobile": "/images/editor/batch-1792761057958-1-------mobile.webp",
+      "alt": "妲己美乐蒂",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1792761073694-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1792761073694-1-----.webp",
+      "srcMobile": "/images/editor/batch-1792761073694-1------mobile.webp",
+      "alt": "尼禄排版",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2.35 / 1",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   ],
   "pages": [],
@@ -1765,10 +1816,11 @@
   "galleryImageOrder": {
     "gallery-1785221332570": [
       "gallery-batch-1791727662090-1",
-      "gallery-batch-1787323735549-3",
-      "gallery-batch-1786374510950-1",
+      "gallery-batch-1792761073694-1",
       "gallery-batch-1789618536204-6",
       "gallery-batch-1791727632387-2",
+      "gallery-batch-1787323735549-3",
+      "gallery-batch-1786374510950-1",
       "gallery-batch-1785635796347-1",
       "gallery-batch-1791727632387-1",
       "gallery-batch-1785635796347-11",
@@ -1800,26 +1852,28 @@
       "gallery-batch-1789618536204-1",
       "gallery-batch-1789618536204-3",
       "gallery-batch-1789618536204-5",
-      "gallery-batch-1790341496965-1"
+      "gallery-batch-1790341496965-1",
+      "gallery-batch-1792761002873-1"
     ],
     "gallery-1785636021572": [
       "gallery-batch-1791727784695-1",
       "gallery-batch-1792232342679-1",
+      "gallery-batch-1792761057958-1",
       "gallery-batch-1791727784695-3",
       "gallery-batch-1791807373985-1",
       "gallery-batch-1792232342679-2",
-      "gallery-batch-1785636048390-1",
       "gallery-batch-1785636048390-2",
-      "gallery-batch-1785636048390-3",
-      "gallery-batch-1785636048390-4",
-      "gallery-batch-1785636048390-5",
-      "gallery-batch-1785636048390-6",
-      "gallery-batch-1785636048390-7",
-      "gallery-batch-1785636048390-8",
+      "gallery-batch-1785939113960-3",
       "gallery-batch-1785636048390-10",
-      "gallery-batch-1785939113960-1",
+      "gallery-batch-1785636048390-4",
       "gallery-batch-1785939113960-2",
-      "gallery-batch-1785939113960-3"
+      "gallery-batch-1785636048390-5",
+      "gallery-batch-1785636048390-7",
+      "gallery-batch-1785636048390-3",
+      "gallery-batch-1785636048390-6",
+      "gallery-batch-1785636048390-1",
+      "gallery-batch-1785636048390-8",
+      "gallery-batch-1785939113960-1"
     ]
   },
   "galleryHiddenImageIds": [],
