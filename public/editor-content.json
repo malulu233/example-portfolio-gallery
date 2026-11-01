@@ -686,6 +686,17 @@
       "hidden": false,
       "styles": {},
       "parentStyles": {}
+    },
+    "/#contact::[data-editor-contact-button-id=\"contact-link-1785601017458\"]": {
+      "selector": "[data-editor-contact-button-id=\"contact-link-1785601017458\"]",
+      "page": "/#contact",
+      "kind": "element",
+      "value": "小红书https://www.xiaohongshu.com/user/profile/64e01a2b00000000010060be?xsec_token=YBNeKwEfrb4iGkD0Di5aJhisN0y0BVM7eB10WvO_w-0Dg=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=ODpHMDRGNks2NzUyOTgwNjY0OTc6NUhO&apptime=1785601046&share_id=0f627eed397a4f6d9c0ce6c82bfba899点击打开链接",
+      "src": "",
+      "alt": "",
+      "hidden": false,
+      "styles": {},
+      "parentStyles": {}
     }
   },
   "insertions": [
@@ -1861,7 +1872,7 @@
     {
       "id": "contact-link-1785601017458",
       "label": "小红书",
-      "value": "https://www.xiaohongshu.com/user/profile/64e01a2b00000000010060be?xsec_token=YBNeKwEfrb4iGkD0Di5aJhisN0y0BVM7eB10WvO_w-0Dg=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=ODpHMDRGNks2NzUyOTgwNjY0OTc6NUhO&apptime=1785601046&share_id=0f627eed397a4f6d9c0ce6c82bfba899",
+      "value": "https://xhslink.cn/o/36JbqHTeM3",
       "kind": "link"
     }
   ],
