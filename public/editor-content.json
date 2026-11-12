@@ -1821,6 +1821,23 @@
         "display": "block",
         "border-radius": "12px"
       }
+    },
+    {
+      "id": "gallery-batch-1794492261200-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785636021572\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1794492261200-1--------.webp",
+      "srcMobile": "/images/editor/batch-1794492261200-1---------mobile.webp",
+      "alt": "小鸟游六花水印",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2 / 3",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   ],
   "pages": [],
@@ -1902,8 +1919,10 @@
     "gallery-1785636021572": [
       "gallery-batch-1791727784695-1",
       "gallery-batch-1792232342679-1",
+      "gallery-batch-1794492261200-1",
       "gallery-batch-1793807264801-1",
       "gallery-batch-1792761057958-1",
+      "gallery-batch-1794135329516-1",
       "gallery-batch-1791727784695-3",
       "gallery-batch-1791807373985-1",
       "gallery-batch-1792232342679-2",
