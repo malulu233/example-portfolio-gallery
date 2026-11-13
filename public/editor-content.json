@@ -1855,6 +1855,23 @@
         "display": "block",
         "border-radius": "12px"
       }
+    },
+    {
+      "id": "gallery-batch-1794581456536-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"gallery-1785221332570\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1794581456536-1------.webp",
+      "srcMobile": "/images/editor/batch-1794581456536-1-------mobile.webp",
+      "alt": "心月狐排版",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "21 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   ],
   "pages": [],
@@ -1894,15 +1911,16 @@
   ],
   "galleryImageOrder": {
     "gallery-1785221332570": [
-      "gallery-batch-1793807212617-1",
+      "gallery-batch-1794581456536-1",
       "gallery-batch-1787323735549-3",
-      "gallery-batch-1791727662090-1",
+      "gallery-batch-1794135320518-1",
+      "gallery-batch-1793807212617-1",
       "gallery-batch-1792761073694-1",
+      "gallery-batch-1794492590095-1",
       "gallery-batch-1791727632387-2",
       "gallery-batch-1789618536204-6",
       "gallery-batch-1786374510950-1",
-      "gallery-batch-1794492590095-1",
-      "gallery-batch-1794135320518-1",
+      "gallery-batch-1791727662090-1",
       "gallery-batch-1785635796347-1",
       "gallery-batch-1791727632387-1",
       "gallery-batch-1785635796347-11",
